@@ -11,4 +11,12 @@ function App(){
 
     console.log(`Tytuł: ${tytuł}, Rodzzaj: ${rodzaj}`);
   };
+
+  return{
+    <div className="container" style=({padding: "20px"})>
+      <h1>Dodaj file</h1>>
+      <form onSubmit=(handleSubmit)>
+        <div className="Form-group"</div>
+    </div>
+  }
 }
