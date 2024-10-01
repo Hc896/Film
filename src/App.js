@@ -8,5 +8,7 @@ function App(){
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  }
+
+    console.log(`Tytuł: ${tytuł}, Rodzzaj: ${rodzaj}`);
+  };
 }
